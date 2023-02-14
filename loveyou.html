@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LOVE YOU LOGAN</title>
+			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino al titolo della pagina-->
+		<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+			<!-- il tag <meta> specifica i metadata in un documento HTML (matadata sono infomazioni sui dati) -->
+			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include quasi tutti i caratteri e i simboli al mondo -->
+		<meta charset="UTF-8">
+			<!-- l'attributo "name" con il valore "viewport" permette di adattare la pagina alla grandezza di qualsiasi schermo -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, ed in questo caso è presente anche una classe (.bgimg) -->
+		<style>
+			body,h1 {
+			font-family: "Raleway", sans-serif;
+			}
+			
+			body, html {
+				height: 100%;
+			}
+			
+			.bgimg {
+				background-image: url('sus.jpg');
+				height: 100%;
+				width: 100;
+				background-attachment: fixed;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navbar -->
+		<div class="w3-top">
+			<!-- Navbar schermi medi/grandi -->
+			<div class="w3-bar" id="myNavbar">
+				<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+					<i class="fa fa-bars"></i>
+				</a>
+				<a href="loveyou.html" class="w3-bar-item w3-button w3-text-light-grey">LOVE YOU</a>
+				<a href="loveyou2.html" class="w3-bar-item w3-button w3-hide-small w3-text-light-grey"><i class="fa fa-university"></i>site in spanish</a>
+			</div>
+
+			<!-- Navbar schermi piccoli -->
+			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+				<a href="loveyou2" class="w3-bar-item w3-button" onclick="toggleFunction()">site in spanish</a>
+			</div>
+		</div>
+		
+	<!-- Inizio pagina -->
+		<!-- Background con parallax -->
+		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+			<!-- Animazione testo inizio pagina -->
+			<div class="w3-display-middle">
+				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small">I</span> LOVE YOU</h1>
+				<hr class="w3-border-grey" style="margin:auto;width:40%">
+				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">SO FUCKING MUCH<br>VERY VERY MUCH</p>
+			</div>
+		</div>
+	<!-- Contenuti -->
+		<!-- Container bioplastiche -->
+		<div class="w3-content w3-container w3-padding-64">
+			<h3 class="w3-center">Love Letter</h3>
+			<p class="w3-center"><em>For You</em></p>
+			<div class="w3-row">
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<img src="sis.jpg" class="w3-round w3-image" width="500" height="333">
+				</div>
+				<div class="w3-col m6 w3-padding-large">
+					<p>I LOVE YOU. You've always been the light of my days, and i can't imagine my life without you, for you are my present, my future and the reason for my happiness. Here's part of a song for you: <br>The meadows are in bloom <br>
+						even you emit fragrances<br>
+						I feel like dying<br>
+						For i love you so much<br>
+						I want you so much.<br>
+						The first beautiful thing<br>
+						I had from life<br>
+						is your young smile, it's you.<br>
+						Between the trees, a star<br>
+						the night has brightened<br>
+						the heart is more and more in love<br>
+						more and more.<br>
+						Do you hear this voice<br>
+						that sings from my heart<br>
+						love, love, love<br>
+						is all I know how to say<br>
+						but you'll understand me.</p>
+				</div>
+			</div>
+			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
+		
+		<!-- script per il funzionamento della navbar -->
+	<script>
+	// Stile navbar oltre l'introduzione
+	window.onscroll = function() {myFunction()};
+	function myFunction() {
+		var navbar = document.getElementById("myNavbar");
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+			navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+		} else {
+			navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+		}
+	}
+	
+	// Menu su schermi piccoli
+	function toggleFunction() {
+		var x = document.getElementById("navDemo");
+		if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		} else {
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+	</script>
+	</body>
+</html>
