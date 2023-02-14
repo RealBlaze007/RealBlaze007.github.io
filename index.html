@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>LOVE YOU LOGAN</title>
-			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino al titolo della pagina-->
+			<!-- BAZAJ FRANCESCO 	2^F 	23/02/2023 -->
+		<title>9° Sinfonia di Beethoven</title>
+			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino 
+			al titolo della pagina-->
 		<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
 			<!-- il tag <meta> specifica i metadata in un documento HTML (matadata sono infomazioni sui dati) -->
-			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include quasi tutti i caratteri e i simboli al mondo -->
+			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include 
+			quasi tutti i caratteri e i simboli al mondo -->
 		<meta charset="UTF-8">
 			<!-- l'attributo "name" con il valore "viewport" permette di adattare la pagina alla grandezza di qualsiasi schermo -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
+			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, 
+			in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, ed in questo caso è presente anche una classe (.bgimg) -->
+			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, 
+			ed in questo caso è presente anche una classe (.bgimg) -->
 		<style>
 			body,h1 {
 			font-family: "Raleway", sans-serif;
@@ -21,10 +26,11 @@
 			
 			body, html {
 				height: 100%;
+				background-color: LightGoldenRodYellow;
 			}
 			
 			.bgimg {
-				background-image: url('sus.jpg');
+				background-image: url('https://91classical.org/wp-content/uploads/sites/8/2020/03/beethoven-joy-scaled.jpg');
 				height: 100%;
 				width: 100;
 				background-attachment: fixed;
@@ -37,84 +43,175 @@
 	<body>
 		<!-- Navbar -->
 		<div class="w3-top">
-			<!-- Navbar schermi medi/grandi -->
-			<div class="w3-bar" id="myNavbar">
-				<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-					<i class="fa fa-bars"></i>
-				</a>
-				<a href="index.html" class="w3-bar-item w3-button w3-text-light-grey">LOVE YOU</a>
-				<a href="index_s.html" class="w3-bar-item w3-button w3-hide-small w3-text-light-grey"><i class="fa fa-university"></i>site in spanish</a>
-			</div>
-
-			<!-- Navbar schermi piccoli -->
-			<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
-				<a href="index_s" class="w3-bar-item w3-button" onclick="toggleFunction()">site in spanish</a>
+			<div class="w3-bar">
+				<a href="index.html" class="w3-bar-item w3-light-gray w3-button">Introduzione</a>
+				<a href="index_storia.html" class="w3-bar-item w3-light-gray  w3-button"><i class="fa fa-university"></i>Storia</a>
+				<a href="index_struttura.html" class="w3-bar-item w3-light-gray  w3-button"><i class="fa fa-align-center"></i>Struttura</a>
 			</div>
 		</div>
 		
 	<!-- Inizio pagina -->
 		<!-- Background con parallax -->
+		<!--"background-attachment: fixed" nel CSS è ciò che permette l'effetto parallax dell'immagine, in quanto blocca
+		sul posto l'immagine rispetto al resto della pagina-->
 		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 			<!-- Animazione testo inizio pagina -->
 			<div class="w3-display-middle">
-				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small">I</span> LOVE YOU</h1>
+				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-deep-orange w3-padding-large"><span class="w3-hide-small">La</span> Sinfonia n.9</h1>
 				<hr class="w3-border-grey" style="margin:auto;width:40%">
-				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">SO FUCKING MUCH<br>VERY VERY MUCH</p>
+				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">Ludwig van Beethoven<br>1822-1824</p>
 			</div>
 		</div>
 	<!-- Contenuti -->
-		<!-- Container bioplastiche -->
+		<!-- Container generale -->
 		<div class="w3-content w3-container w3-padding-64">
-			<h3 class="w3-center">Love Letter</h3>
-			<p class="w3-center"><em>For You</em></p>
+			<h3 class="w3-center">INTRODUZIONE</h3>
+			<!-- Container introduzione -->
 			<div class="w3-row">
 				<div class="w3-col m6 w3-center w3-padding-large">
-					<img src="sis.jpg" class="w3-round w3-image" width="500" height="333">
+					<img src="https://www.pu-ro.it/wp-content/uploads/2020/11/bioplastiche-2-1024x759.png" class="w3-round w3-image" width="500" height="333">
 				</div>
 				<div class="w3-col m6 w3-padding-large">
-					<p>I LOVE YOU. You've always been the light of my days, and i can't imagine my life without you, for you are my present, my future and the reason for my happiness. Here's part of a song for you: <br>The meadows are in bloom <br>
-						even you emit fragrances<br>
-						I feel like dying<br>
-						For i love you so much<br>
-						I want you so much.<br>
-						The first beautiful thing<br>
-						I had from life<br>
-						is your young smile, it's you.<br>
-						Between the trees, a star<br>
-						the night has brightened<br>
-						the heart is more and more in love<br>
-						more and more.<br>
-						Do you hear this voice<br>
-						that sings from my heart<br>
-						love, love, love<br>
-						is all I know how to say<br>
-						but you'll understand me.</p>
+					<p>La Sinfonia n. 9 in re minore, anche nota come Sinfonia corale, è l'ultima opera sinfonica composta da Ludwig van Beethoven. Il debutto della sinfonia avvenne il 7 maggio 1824. La sinfonia è composta da quattro movimenti, i primi tre dei quali sono esclusivamente orchestrali, mentre l'ultimo comprende il coro che canta i versi dell'ode Alla gioia di Friedrich Schiller.
+						La Sinfonia n. 9 è una delle opere più famose ed eseguite di tutto il repertorio classico, ritenuta da molti come uno dei più grandi capolavori della storia della musica. Essa è stata spesso considerata simbolo universale di unità e fratellanza tra gli uomini.
+						Il tema del finale della sinfonia, riadattato da Herbert von Karajan, è stato adottato come Inno europeo nel 1972. Nel 2001, lo spartito e il testo dell'opera sono stati dichiarati Memoria del mondo dell'UNESCO, con l'attribuzione alla Germania.</p>
+					<hr class="w3-border-grey" style="margin:auto;width:40%">
+					<div class="w3-col m6 w3-center w3-padding-large">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CarolineUngher.jpg/1024px-CarolineUngher.jpg" class="w3-round w3-image" width="500" height="333">
+					</div>
+					<p>Caroline Unger cantò come contralto durante la prima esecuzione della sinfonia, e si dice che nel finale abbia fatto voltare Beethoven per guardare la folla plaudente.</p>
 				</div>
 			</div>
 			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
-		
-		<!-- script per il funzionamento della navbar -->
-	<script>
-	// Stile navbar oltre l'introduzione
-	window.onscroll = function() {myFunction()};
-	function myFunction() {
-		var navbar = document.getElementById("myNavbar");
-		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-			navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-		} else {
-			navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-		}
-	}
-	
-	// Menu su schermi piccoli
-	function toggleFunction() {
-		var x = document.getElementById("navDemo");
-		if (x.className.indexOf("w3-show") == -1) {
-			x.className += " w3-show";
-		} else {
-			x.className = x.className.replace(" w3-show", "");
-		}
-	}
-	</script>
+			<!-- Organico -->
+		<h3 class="w3-padding-16 w3-text-black w3-center"><strong>ORGANICO</strong></h3>
+		<div style="margin-bottom:10%;" class="w3-row-padding w3-col">
+			<div style="width:20%" class="w3-col">
+				<ul class="w3-ul w3-white w3-center">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">LEGNI</li>
+					<li class="w3-padding-16">Ottavino (solo quarto movimento)</li>
+					<li class="w3-padding-16">2 Flauti</li>
+					<li class="w3-padding-16">2 Oboi</li>
+					<li class="w3-padding-16">2 Clarinetti in La, Si bemolle e Do</li>
+					<li class="w3-padding-16">2 Fagotti</li>
+					<li class="w3-padding-16">Controfagotto (solo quarto movimento)</li>
+				</ul>
+			</div>
+
+			<div style="width:20%" class="w3-col">
+				<ul class="w3-ul w3-white w3-center">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">OTTONI</li>
+					<li class="w3-padding-15">2 corni (primo e secondo) in Re e Si bemolle</li>
+					<li class="w3-padding-15">2 corni (terzo e quarto) in Si bemolle basso e Mi bemolle</li>
+					<li class="w3-padding-15">2 trombe in Re e Si bemolle</li>
+					<li class="w3-padding-15">3 tromboni contralto, tenore e basso (solo secondo e quarto movimento)</li>
+				</ul>
+			</div>
+
+			<div style="width:20%" class="w3-col">
+				<ul class="w3-ul w3-white w3-center">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">PERCUSSIONI</li>
+					<li class="w3-padding-24">Timpani</li>
+					<li class="w3-padding-24">Grancassa (solo quarto movimento)</li>
+					<li class="w3-padding-24">Triangolo (solo quarto movimento)</li>
+					<li class="w3-padding-24">Piatti (solo quarto movimento)</li>
+				</ul>
+			</div>
+
+			<div style="width:20%" class="w3-col">
+				<ul class="w3-ul w3-white w3-center">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">ARCHI</li>
+					<li class="w3-padding-24">Violini I, II</li>
+					<li class="w3-padding-24">Viole</li>
+					<li class="w3-padding-24">Violoncelli</li>
+					<li class="w3-padding-24">Contrabbassi</li>
+				</ul>
+			</div>
+
+			<div style="width:20%" class="w3-col">
+				<ul class="w3-ul w3-white w3-center">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">VOCI (IV)</li>
+					<li class="w3-padding-16">4 Solisti</li>
+					<li class="w3-padding-16">Soprano</li>
+					<li class="w3-padding-16">Contralto</li>
+					<li class="w3-padding-16">Tenore</li>
+					<li class="w3-padding-16">Baritono</li>
+					<li class="w3-padding-16">Coro SATB</li>
+				</ul>
+			</div>
+		</div>
+			<!-- Container critica ed esecuzioni celebri -->
+			<h3 class="w3-center">CRITICA</h3>
+			<p class="w3-center"><em>La sinfonia fu dedicata a Federico Guglielmo III, Re di Prussia.</em></p>
+			<p>La sinfonia è storicamente indicata come il capolavoro di Beethoven, nonché tra i punti più alti mai raggiunti dalla musica di ogni epoca. Ciò nonostante, non le sono state risparmiate critiche, e in particolare all'ultimo movimento (singolarmente, il più famoso) sono state rimproverate alcune durezze: <br>«[e]arly critics rejected [the finale] as cryptic and eccentric, the product of a deaf and ageing composer» -Nicholas Cook.<br> Giuseppe Verdi, che stravedeva per i primi tre movimenti, criticò invece aspramente l'ultimo.</p>
+			<div class="w3-row">
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<video src="Ode_to_Freedom_Bernstein_Berlin.webm" width="468" height="333" style="margin-top:30%; padding-right:10%" controls>
+					</video>
+					<h6>Natale del 1989, Ode an die Freiheit: Bernstein in Berlin</h6>
+				</div>
+				<h4 style="margin-top:5%;" class="w3-center"><em>Esecuzioni Celebri</em></h4>
+				<div class="w3-col m6 w3-padding-large">
+					<p>Al Metropolitan Opera House di New York viene eseguita nel 1913 diretta da Arturo Toscanini con Louise Homer.<br> <br>
+						Al Teatro La Fenice viene eseguita nel 1944 con Cloe Elmo.<br> <br>
+						Al Wiener Staatsoper viene eseguita nel 1965 diretta da Karl Böhm con i Wiener Philharmoniker, Wilma Lipp, Christa Ludwig e James King.<br> <br>
+						Per celebrare la caduta del Muro di Berlino, nel Natale del 1989, Leonard Bernstein la eseguì alla testa di membri di diverse orchestre europee alla Schauspielhaus di Berlino, solisti June Anderson (Soprano), Sarah Walker (Mezzosoprano), Klaus König (Tenore) e Jan-Hendrik Rootering (Basso). Per quell'occasione, egli stesso sostituì alla parola "Freude" ("gioia"), che ricorre nel corso del IV movimento, la parola "Freiheit" ("libertà"). L'esecuzione fu registrata e pubblicata dalla Deutsche Grammophon con il titolo Ode an die Freiheit: Bernstein in Berlin.
+					</p>
+				</div>
+			</div>
+
+			<!-- Container cultura popolare -->
+			<h3 style="padding-top:10%" class="w3-center">NELLA CULTURA POPOLARE</h3>
+			<!-- Container Inni -->
+			<div class="w3-row">
+				<h4 style="margin-top:5%; margin-left:5%;"><em>La sinfonia negli Inni</em></h4>
+				<div class="w3-col m6 w3-padding-large">
+					<p>Durante il periodo della divisione della Germania, l'Inno alla gioia è stato l'inno per la Squadra Unificata Tedesca durante i Giochi olimpici svoltisi tra il 1956 e il 1968.<br><br>
+						Nel 1972, la versione strumentale (senza coro), è stata adottata come inno europeo dal Consiglio d'Europa e, successivamente, dalle Comunità europee (ora Unione europea) nel 1985.<br><br>
+						Dal 1974 al 1979 fu inno anche per la Repubblica di Rhodesia del governo segregazionista di Ian Douglas Smith con il testo "Rise, O Voice of Rhodesia".<br><br>
+						Il coro del quarto movimento viene inoltre utilizzato anche nelle manifestazioni calcistiche: dal 2005 al 2015 è stato l'inno ufficiale della Copa Libertadores mentre dal settembre 2014, una versione strumentale riarrangiata di un frammento del quarto movimento viene utilizzata come sigla di apertura e di chiusura delle partite di qualificazione ai Campionati europei di calcio e ai match della zona europea di qualificazione ai Campionati mondiali di calcio, oltre che delle trasmissioni ad esse correlate.
+					</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<video src="Ode_ad_gaudium.webm" width="468" height="333" style="margin-top:-20%;" controls>
+					</video>
+					<h6 style="margin-top:-1.5%;">Versione non ufficiale dell'inno dell'UE in Latino</h6>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<video src="Ode_an_die_Freude.webm" width="468" height="333" style="margin-top:-5%;" controls>
+					</video>
+					<h6 style="margin-top:-1.5%;">Inno dell'UE in Tedesco</h6>
+				</div>
+			</div>
+
+			<!-- Container Cinema -->
+			<div class="w3-row">
+				<h4 style="margin-top:5%; margin-left:5%;"><em>La sinfonia nel cinema</em></h4>
+				<div class="w3-col m6 w3-padding-large">
+					<p>Alcuni movimenti della nona sinfonia eseguiti su sintetizzatore Moog da Walter Carlos fanno parte della colonna sonora del film Arancia meccanica, in particolare l'Inno alla Gioia che accompagna per contrasto le immagini brutali della "cura Ludovico" durante la rieducazione del protagonista.<br><br>
+						L'inno alla gioia è nella colonna sonora del film L'attimo fuggente del 1989, suonato dalla Chicago Symphony Orchestra.<br><br>
+						L'esecuzione di parte del 4º movimento è contenuta nel film Departures di Yojiro Takita del 2008.<br><br>
+						L'esordio del 2º movimento è contenuto nel film Whatever Works di Woody Allen del 2009.<br><br>
+						Parti della nona sinfonia sono contenute nel film Warrior di Gavin O'Connor del 2011.<br><br>
+						Una citazione dalla nona sinfonia si trova anche nel film L'era glaciale 4 - Continenti alla deriva.<br><br>
+						Parte della Sinfonia si trova nel film The End of Evangelion della saga Neon Genesis Evangelion del 1997.<br><br>
+						Il film Lezione ventuno di Alessandro Baricco parla dei motivi della creazione della nona sinfonia (secondo l'autore).<br><br>
+						Il film Amata immortale di Bernard Rose, del 1994, che narra la vita romanzata di Beethoven, dà una interpretazione di questo brano ricollegandolo all'infanzia del piccolo Ludwig.<br><br>
+						L'esordio del primo movimento (Allegro ma non troppo, un poco maestoso) è di una certa rilevanza drammatica nel film Equilibrium del 2002.<br><br>
+						Io e Beethoven di Agnieszka Holland del 2006.<br><br>
+						Il 4° movimento della sinfonia viene più volte citato nel film Trappola di cristallo di John McTiernan del 1988, venendo anche eseguito nei titoli di coda.</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<img src="https://m.media-amazon.com/images/M/MV5BMjU0MzQwMmMtMWU3OS00MDc0LWIzOTItZmE1MjZlYmExMGJiXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg" width="308" height="459" style="margin-top:-10%;">
+					</img>
+					<h6>Film del 1997 Neon Genesis Evangelion: The End of Evangelion</h6>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<img src="https://www.einaudi.it/content/uploads/2022/02/978880625076HIG.JPG" width="308" height="459" style="margin-top:-5%;">
+					</img>
+					<h6>Classico di Stanley Kubrick del 1971, Arancia Meccanica</h6>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
