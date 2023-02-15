@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
+			<!-- BAZAJ FRANCESCO 	2^F 	23/02/2023 -->
 		<title>9° Sinfonia di Beethoven</title>
-			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino al titolo della pagina-->
+			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino 
+			al titolo della pagina-->
 		<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
 			<!-- il tag <meta> specifica i metadata in un documento HTML (matadata sono infomazioni sui dati) -->
-			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include quasi tutti i caratteri e i simboli al mondo -->
+			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include 
+			quasi tutti i caratteri e i simboli al mondo -->
 		<meta charset="UTF-8">
 			<!-- l'attributo "name" con il valore "viewport" permette di adattare la pagina alla grandezza di qualsiasi schermo -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
+			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, 
+			in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, ed in questo caso è presente anche una classe (.bgimg) -->
+			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, 
+			ed in questo caso è presente anche una classe (.bgimg) -->
 		<style>
 			body,h1 {
 			font-family: "Raleway", sans-serif;
@@ -21,10 +26,11 @@
 			
 			body, html {
 				height: 100%;
+				background-color: LightGoldenRodYellow;
 			}
 			
 			.bgimg {
-				background-image: url('https://www.meccanicanews.com/files/2020/02/Fotolia_23232594_XL.jpg');
+				background-image: url('https://image.ondacero.es/clipping/cmsimages02/2021/05/07/F1967C55-8D10-4CDA-BA67-3C5810FB86CD/98.jpg?crop=899,506,x1,y0&width=1900&height=1069&optimize=high&format=webply');
 				height: 100%;
 				width: 100;
 				background-attachment: fixed;
@@ -37,108 +43,64 @@
 	<body>
 		<!-- Navbar -->
 		<div class="w3-top">
-			<!-- Navbar schermi medi/grandi -->
 			<div class="w3-bar">
-				<a href="index.html" class="w3-bar-item w3-button">Introduzione</a>
-				<a href="index_storia.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-university"></i>Storia</a>
-				<a href="index_struttura.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-align-center"></i>Struttura</a>
-				<a href="Matematica.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Matematica</a>
-				<a href="ttrg_1 (1).html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>TTRG</a>
-				<a href="index inglese.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Inglese</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Biologia</a>
+				<a href="index.html" class="w3-bar-item w3-light-gray w3-button">Introduzione</a>
+				<a href="index_storia.html" class="w3-bar-item w3-light-gray w3-button"><i class="fa fa-university"></i>Storia</a>
+				<a href="index_struttura.html" class="w3-bar-item w3-light-gray w3-button"><i class="fa fa-align-center"></i>Struttura</a>
 			</div>
 		</div>
 		
 	<!-- Inizio pagina -->
 		<!-- Background con parallax -->
+		<!--"background-attachment: fixed" nel CSS è ciò che permette l'effetto parallax dell'immagine, in quanto blocca
+		sul posto l'immagine rispetto al resto della pagina-->
 		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 			<!-- Animazione testo inizio pagina -->
 			<div class="w3-display-middle">
-				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small">Le</span> Bioplastiche</h1>
+				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-deep-orange w3-padding-large"><span class="w3-hide-small">La</span> Sinfonia n.9</h1>
 				<hr class="w3-border-grey" style="margin:auto;width:40%">
-				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">Cosa sono?<br>Perché usarle?</p>
+				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">La Storia</p>
 			</div>
 		</div>
 	<!-- Contenuti -->
-		<!-- Container bioplastiche -->
+		<!-- Container generale -->
 		<div class="w3-content w3-container w3-padding-64">
-			<h3 class="w3-center">BIOPLASTICHE</h3>
-			<p class="w3-center"><em>Che cosa sono?</em></p>
+			<h3 class="w3-center">COMPOSIZIONE</h3>
+			<!-- Container composizione -->
 			<div class="w3-row">
 				<div class="w3-col m6 w3-center w3-padding-large">
-					<img src="https://www.pu-ro.it/wp-content/uploads/2020/11/bioplastiche-2-1024x759.png" class="w3-round w3-image" width="500" height="333">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ninth_Symphony_original.png/1280px-Ninth_Symphony_original.png" class="w3-round w3-image" width="500" height="333" style="margin-top:25%; margin-right:5%;">
+					<p>Pagina del manoscritto originale della sinfonia</p>
 				</div>
 				<div class="w3-col m6 w3-padding-large">
-					<p>La bioplastica è una plastica prodotta con materiale organico e senza utilizzare derivati del petrolio. Essendo prodotta da materia organica, la bioplastica è biodegradabile al 100%. 
-					Può essere riassorbita dagli agenti naturali presenti sulla terra o nell'atmosfera in tempi molto più rapidi e con minore conseguenze sull'ambiente. 
-					In genere, si dissolve nell'ambiente in 4-5 anni, a seconda della sua composizione chimica, senza lasciare sostanze residue inquinanti. Quindi, può essere utilizzata per produrre prodotti in plastica di ogni tipo.</p>
-				</div>
-			</div>
-			<hr style="background-image: url('https://www.meccanicanews.com/files/2020/02/Fotolia_23232594_XL.jpg');"class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
-		<!-- Container plastiche -->
-			<h3 class="w3-center">PLASTICHE</h3>
-			<p class="w3-center"><em>Che cosa sono?</em></p>
-			<p>La plastica tradizionale è stata scoperta più di un secolo fa. Ha trovato subito un larghissimo impiego, grazie alle sue caratteristiche in termini di versatilità, resistenza e basso costo. 
-			Si tratta di un prodotto artificiale derivato da due idrocarburi: petrolio e gas. 
-			La plastica presenta una notevole resistenza sia meccanica che al calore. L’elenco dei pregi della plastica tradizionale è piuttosto lungo: è facile da lavorare, resistente all’invecchiamento e alla corrosione, è praticamente immune da muffe, funghi e batteri e, come accennato, è molto economica.</p>
-			<div class="w3-row">
-				<div class="w3-col m6 w3-center w3-padding-large">
-					<img src="https://static.ohga.it/wp-content/uploads/sites/24/2019/03/iStock-962590716.jpg" class="w3-round w3-image" width="500" height="333">
-				</div>
-				<h4 class="w3-center"><em>Periocolosità</em></h4>
-				<div class="w3-col m6 w3-padding-large">
-					<p>La resistenza della plastica tradizionale ne determina anche la dannosità per l'ambiente, in termini di rilascio di anidride carbonica. Una bottiglia di plastica tradizionale, se non viene riciclata, impiega dai 100 ai 1000 anni per decomporsi. 
-					Il riciclo della plastica tradizionale non è semplice come sembra. Non è sufficiente eseguire correttamente la raccolta differenziata. In un rapporto del 2018 dell’Ocse, si legge che a livello globale la quantità di plastica riciclata corrisponde al 14%-18% del totale. La percentuale rimanente finisce in inceneritori e termovalorizzatori (24%) oppure è lasciato nelle discariche o ancora viene disperso nell’ambiente (58%-62%).
+					<p>La Società Filarmonica di Londra inizialmente commissionò la sinfonia nel 1817. La principale opera di composizione fu compiuta tra l'autunno del 1823 e il febbraio 1824, data di completamento dell'autografo.<br><br>
+						Denominata nel suo primo abbozzo Allemande ("Tedesca") la sinfonia nacque in parte da altri brani di Beethoven che, confluiti in opere a sé stanti, sono anche contenuti in alcuni schizzi della futura Nona sinfonia. Quanto alla struttura, già la Fantasia Corale, Op. 80 (1808), in pratica un movimento di un concerto per pianoforte, introduce un coro e dei solisti verso la fine, per creare il culmine. Così nella Nona Sinfonia le voci cantano un tema prima suonato strumentalmente: peraltro il tema, per lo meno nella struttura, ricorda piuttosto da vicino il tema corrispondente nella Fantasia Corale. Andando ancora più indietro, una versione precedente del tema della Fantasia Corale si trova nella canzone Gegenliebe, per pianoforte e voce alta, risalente a prima del 1795. L'offertorio Misericordias Domini KV 222 di Mozart (1775) contiene un tema affidato ai violini che corrisponde esattamente, a parte una minima variazione, alla frase iniziale dell'Inno alla gioia, e lo richiama pertanto all'orecchio dell'ascoltatore moderno (il fatto non è però straordinario, dal momento che entrambe le melodie procedono per grado congiunto).
 					</p>
 				</div>
 			</div>
-			<p class="w3-wide"><i class="fa fa-recycle"></i>Plastica riciclata</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:18%">18%</div>
-			</div>
-			<p class="w3-wide"><i class="fa fa-fire"></i>Inceneritori e termovalorizzatori</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:24%">24%</div>
-			</div>
-			<p class="w3-wide"><i class="fa fa-trash"></i>Discariche e dispersione nell'ambiente</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:58%">58%</div>
-			</div>
-		</div>
+			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
 
-		<!-- Differenze -->
-		<h3 class="w3-padding-16 w3-text-blue w3-center"><strong>DIFFERENZE E SIMILARITÀ</strong></h3>
-		<div class="w3-row-padding" style="margin:0 -16px">
-			<div class="w3-half w3-margin-bottom">
-				<ul class="w3-ul w3-white w3-center">
-					<li class="w3-dark-grey w3-xlarge w3-padding-32">BIOPLASTICA</li>
-					<li class="w3-padding-16">Materiale rinnovabile ricavato da prodotti di origine vegetale</li>
-					<li class="w3-padding-16">Biodegradabile</li>
-					<li class="w3-padding-16">Minor impatto ambientale</li>
-					<li class="w3-padding-16">Leggera</li>
-					<li class="w3-padding-16">Versatile</li>
-					<li class="w3-padding-16">Resistente</li>
-					<li class="w3-padding-16">Sottrae terreno e prodotti agricoli destinati all'alimentazione</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-button w3-white w3-padding-large w3-hover-black"><a style="text-decoration: none" href="https://it.wikipedia.org/wiki/Bioplastica">Per ulteriori informazioni</a></button>
-					</li>
-				</ul>
+			<!-- Container la prima -->
+			<h3 class="w3-center">LA PRIMA</h3>
+			<p class="w3-center">La Nona sinfonia di Beethoven fu eseguita per la prima volta a Vienna il 7 maggio 1824. Inizialmente, Beethoven voleva che l'esecuzione avvenisse a Berlino, ma i suoi amici e finanziatori insistettero per Vienna. Beethoven accettò, ma discusse a lungo sulla scelta del luogo. La prima fu eseguita al Theater am Kärntnertor di Vienna e coinvolse la più grande orchestra mai riunita da Beethoven, con un pubblico entusiasta. Le parti per soprano e contralto furono interpretate da Henriette Sontag e Caroline Unger, ingaggiate personalmente da Beethoven. Ufficialmente, la sinfonia fu diretta dal maestro di cappella del teatro, Michael Umlauf, ma Beethoven, seduto al lato del palco, dirigeva dal leggio con gesti furiosi e gesticolava come se volesse suonare tutti gli strumenti e cantare per l'intero coro.<br><br>«Beethoven diresse il pezzo lui stesso; cioè, si trovava davanti al leggio e gesticolava furiosamente. A volte si alzava, altre si stringeva fino al suolo, si muoveva come se volesse suonare tutti gli strumenti da sé e cantare per conto dell'intero coro. Tutti i musicisti prestavano attenzione soltanto al suo ritmo mentre suonavano.» -il violinista Joseph Böhm<br><br>Secondo un testimone, «il pubblico ricevette l'eroe musicale con il massimo rispetto e simpatia, ascoltò le sue meravigliose, gigantesche creazioni con l'attenzione più assorbita e scoppiò in un applauso di giubilo, spesso durante le sezioni, e ripetutamente alla loro fine». L'intero pubblico per cinque volte acclamò l'autore con una standing ovation; c'erano fazzoletti in aria, cappelli, mani alzate, in modo che Beethoven, che non riusciva a sentire gli applausi, potesse almeno vedere i gesti di ovazione.
+			</p>
+			<div class=" m6 w3-center w3-padding-large">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CarolineUngher.jpg/1024px-CarolineUngher.jpg" class="w3-round w3-image" width="150" height="99">
+				<p>Caroline Unger cantò come contralto durante la prima esecuzione della sinfonia, e si dice che nel finale abbia fatto voltare Beethoven per guardare la folla plaudente.</p>
 			</div>
+			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
 
-			<div class="w3-half">
-				<ul class="w3-ul w3-white w3-center">
-					<li class="w3-dark-grey w3-xlarge w3-padding-32">PLASTICA</li>
-					<li class="w3-padding-16">Derivato del petrolio per più del 95%</li>
-					<li class="w3-padding-16">Rimane nell'ambiente fino a 1000 anni</li>
-					<li class="w3-padding-16">Dannosa per la salute e per l'ambiente</li>
-					<li class="w3-padding-16">Leggera</li>
-					<li class="w3-padding-16">Versatile</li>
-					<li class="w3-padding-16">Resistente</li>
-					<li class="w3-padding-16">Solo il 18% viene riciclata</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-button w3-white w3-padding-large w3-hover-black"><a style="text-decoration: none" href="https://it.wikipedia.org/wiki/Materie_plastiche">Per ulteriori informazioni</a></button>
-					</li>
-				</ul>
+			<!-- Container edizioni -->
+			<h3 class="w3-center">EDIZIONI</h3>
+			<div class="w3-row">
+				<div class="w3-col m6 w3-padding-large">
+					<p>La prima edizione tedesca è stata stampata da B. Schott's Söhne (Mainz) nel 1826. L'edizione Breitkopf & Härtel risalente al 1864 è stata usata ampiamente dalle orchestre. Nel 1997 Bärenreiter pubblicò un'edizione di Jonathan Del Mar. Secondo Del Mar, questa edizione corregge quasi 3.000 errori contenuti nell'edizione Breitkopf, alcuni dei quali erano "notevoli". David Levy tuttavia ha criticato questa edizione, dicendo che potrebbe creare tradizioni "molto probabilmente false". Breitkopf ha anche pubblicato una nuova edizione di Peter Hauschild nel 2005.
+					</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Beethoven_Ninth_Symphony.png" width="468" height="333">
+					<p>Spartito autografo del quarto movimento della sinfonia.</p>
+				</div>
 			</div>
 		</div>
 	</body>
