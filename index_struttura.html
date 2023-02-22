@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- BAZAJ FRANCESCO 	2^F 	23/02/2023 -->
 		<title>9° Sinfonia di Beethoven</title>
-			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino al titolo della pagina-->
+			<!-- qui ho inserito una "favicon", cioè l'immagine (in questo caso Beethoven) che compare vicino 
+			al titolo della pagina-->
 		<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
 			<!-- il tag <meta> specifica i metadata in un documento HTML (matadata sono infomazioni sui dati) -->
-			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include quasi tutti i caratteri e i simboli al mondo -->
+			<!-- l'attributo "charset" specifica il set di caratteri da utilizzare, in questo caso "UTF-8", che include 
+			quasi tutti i caratteri e i simboli al mondo -->
 		<meta charset="UTF-8">
 			<!-- l'attributo "name" con il valore "viewport" permette di adattare la pagina alla grandezza di qualsiasi schermo -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
+			<!-- il tag <link> instaura una relazione tra il documento attuale ed una risorsa esterna, 
+			in questi casi w3CSS (il CSS di w3schools per container ecc...), la font family "raleway" di google e "font awesome" -->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, ed in questo caso è presente anche una classe (.bgimg) -->
+			<!-- il tag <style> in head corrisponde ad un CSS interno, cioè applica modifiche a tutti i tag specificati, 
+			ed in questo caso è presente anche una classe (.bgimg) -->
 		<style>
 			body,h1 {
 			font-family: "Raleway", sans-serif;
@@ -21,10 +26,11 @@
 			
 			body, html {
 				height: 100%;
+				background-color: LightGoldenRodYellow;
 			}
 			
 			.bgimg {
-				background-image: url('https://www.meccanicanews.com/files/2020/02/Fotolia_23232594_XL.jpg');
+				background-image: url('https://images4.alphacoders.com/197/thumb-1920-197344.jpg');
 				height: 100%;
 				width: 100;
 				background-attachment: fixed;
@@ -37,108 +43,499 @@
 	<body>
 		<!-- Navbar -->
 		<div class="w3-top">
-			<!-- Navbar schermi medi/grandi -->
 			<div class="w3-bar">
-				<a href="index.html" class="w3-bar-item w3-button">Introduzione</a>
-				<a href="index_storia.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-university"></i>Storia</a>
-				<a href="index_struttura.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-align-center"></i>Struttura</a>
-				<a href="Matematica.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Matematica</a>
-				<a href="ttrg_1 (1).html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>TTRG</a>
-				<a href="index inglese.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Inglese</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>Biologia</a>
+				<a href="index.html" class="w3-bar-item w3-light-gray w3-button">Introduzione</a>
+				<a href="index_storia.html" class="w3-bar-item w3-light-gray w3-button"><i class="fa fa-university"></i>Storia</a>
+				<a href="index_struttura.html" class="w3-bar-item w3-light-gray w3-button"><i class="fa fa-align-center"></i>Struttura</a>
 			</div>
 		</div>
 		
 	<!-- Inizio pagina -->
 		<!-- Background con parallax -->
+		<!--"background-attachment: fixed" nel CSS è ciò che permette l'effetto parallax dell'immagine, in quanto blocca
+		sul posto l'immagine rispetto al resto della pagina-->
 		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 			<!-- Animazione testo inizio pagina -->
 			<div class="w3-display-middle">
-				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-green w3-padding-large"><span class="w3-hide-small">Le</span> Bioplastiche</h1>
+				<h1 class="w3-xxlarge w3-animate-top w3-animate-opacity w3-deep-orange w3-padding-large"><span class="w3-hide-small">La</span> Sinfonia n.9</h1>
 				<hr class="w3-border-grey" style="margin:auto;width:40%">
-				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">Cosa sono?<br>Perché usarle?</p>
+				<p class="w3-large w3-center w3-animate-top w3-animate-opacity w3-white w3-padding-large">La Struttura</p>
 			</div>
 		</div>
 	<!-- Contenuti -->
-		<!-- Container bioplastiche -->
+		<!-- Container generale -->
 		<div class="w3-content w3-container w3-padding-64">
-			<h3 class="w3-center">BIOPLASTICHE</h3>
-			<p class="w3-center"><em>Che cosa sono?</em></p>
+			<h3 class="w3-center">STRUTTURA</h3>
 			<div class="w3-row">
 				<div class="w3-col m6 w3-center w3-padding-large">
-					<img src="https://www.pu-ro.it/wp-content/uploads/2020/11/bioplastiche-2-1024x759.png" class="w3-round w3-image" width="500" height="333">
+					<img src="http://cdn2.cantorion.org/music/larger_859fdbec546c68a02e782c98f7eadb79.jpg?page=1" class="w3-round w3-image" width="300" height="333">
 				</div>
 				<div class="w3-col m6 w3-padding-large">
-					<p>La bioplastica è una plastica prodotta con materiale organico e senza utilizzare derivati del petrolio. Essendo prodotta da materia organica, la bioplastica è biodegradabile al 100%. 
-					Può essere riassorbita dagli agenti naturali presenti sulla terra o nell'atmosfera in tempi molto più rapidi e con minore conseguenze sull'ambiente. 
-					In genere, si dissolve nell'ambiente in 4-5 anni, a seconda della sua composizione chimica, senza lasciare sostanze residue inquinanti. Quindi, può essere utilizzata per produrre prodotti in plastica di ogni tipo.</p>
+					<p>La sinfonia è divisa in quattro movimenti, l'ultimo dei quali contiene l'Inno alla gioia. Beethoven modifica la tipica struttura della sinfonia classica inserendo per la prima volta uno scherzo prima del movimento lento (infatti lo scherzo solitamente segue il movimento più lento). Eccezionalmente infatti, se il primo movimento di una sinfonia o di una sonata e il successivo tempo lento acquistano proporzioni e impegno eccessivi, lo scherzo può diventare il secondo movimento, dando così maggior equilibrio all'opera. Egli aveva comunque già fatto lo stesso in lavori precedenti (inclusi i quartetti di archi) Op. 18 n. 5, the Archduke piano trio Op. 97, la sonata per piano Hammerklavier Op. 106). Anche Haydn fece lo stesso in altri lavori.</p>
 				</div>
 			</div>
-			<hr style="background-image: url('https://www.meccanicanews.com/files/2020/02/Fotolia_23232594_XL.jpg');"class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
-		<!-- Container plastiche -->
-			<h3 class="w3-center">PLASTICHE</h3>
-			<p class="w3-center"><em>Che cosa sono?</em></p>
-			<p>La plastica tradizionale è stata scoperta più di un secolo fa. Ha trovato subito un larghissimo impiego, grazie alle sue caratteristiche in termini di versatilità, resistenza e basso costo. 
-			Si tratta di un prodotto artificiale derivato da due idrocarburi: petrolio e gas. 
-			La plastica presenta una notevole resistenza sia meccanica che al calore. L’elenco dei pregi della plastica tradizionale è piuttosto lungo: è facile da lavorare, resistente all’invecchiamento e alla corrosione, è praticamente immune da muffe, funghi e batteri e, come accennato, è molto economica.</p>
+			<table class="w3-table-all w3-centered" style="text-align:center; background-color: white">
+
+				<tbody>
+				<tr>
+					<th>Movimento
+					</th>
+					<th>Indicazioni del movimento
+					</th>
+					<th>Misura
+					</th>
+					<th>Tempo e durata
+					</th>
+					<th>Tonalità
+					</th>
+				</tr>
+				<tr>
+					<th class="w3-green">I
+					</th>
+						<td><i>Allegro ma non troppo, un poco maestoso</i>
+						</td>
+						<td> 2/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 88
+							<p>(00:15:17 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+					<th rowspan="4" class="w3-green">II
+					</th>
+						<td><i>Molto vivace</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dotted_half_note_with_upwards_stem.svg/471px-Dotted_half_note_with_upwards_stem.svg.png" width="12" height="23">= 116
+							<p>(00:15:18 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Presto</i>
+						</td>
+						<td> 2/2
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Figure_rythmique_ronde.svg/30px-Figure_rythmique_ronde.svg.png" width="10" height="6">= 116
+							<p>(00:18:49 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Scherzo da Capo al Coda</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dotted_half_note_with_upwards_stem.svg/471px-Dotted_half_note_with_upwards_stem.svg.png" width="12" height="23">= 116
+							<p>(00:21:43 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Coda</i>
+						</td>
+						<td> 2/2
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Figure_rythmique_ronde.svg/30px-Figure_rythmique_ronde.svg.png" width="10" height="6">= 116
+							<p>(00:25:07 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				<tr>
+					<th rowspan="6" class="w3-green">III
+					</th>
+						<td><i>Adagio molto e cantabile</i>
+						</td>
+						<td> 4/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 60
+							<p>(00:25:18 s)
+							</p>
+						</td>
+						<td>Si bemolle maggiore
+						</td>
+				</tr>
+				<tr>
+					
+						<td><i>Andante moderato</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 63
+							<p>(00:28:10 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				<tr>
+					
+						<td><i>Tempo I</i>
+						</td>
+						<td> 4/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 60
+							<p>(00:29:23 s)
+							</p>
+						</td>
+						<td>Si bemolle maggiore
+						</td>
+				</tr>
+				<tr>
+					
+						<td><i>Andante moderato</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 63
+							<p>(00:31:41 s)
+							</p>
+						</td>
+						<td>Sol maggiore
+						</td>
+				</tr>
+				<tr>
+					
+						<td><i>Adagio</i>
+						</td>
+						<td> 4/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Quarter_note_with_upwards_stem.svg/22px-Quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 60
+							<p>(00:32:51 s)
+							</p>
+						</td>
+						<td>Mi bemolle maggiore
+						</td>
+				</tr>
+				<tr>
+					
+						<td><i>Lo stesso tempo</i>
+						</td>
+						<td> 12/8
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Dotted_quarter_note_with_upwards_stem.svg/471px-Dotted_quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 60
+							<p>(00:34:41 s)
+							</p>
+						</td>
+						<td>Si bemolle maggiore
+						</td>
+				</tr>
+				<tr>
+					<th rowspan="9" class="w3-green">IV
+					</th>
+						<td><i>Presto</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dotted_half_note_with_upwards_stem.svg/471px-Dotted_half_note_with_upwards_stem.svg.png" width="12" height="23">= 96
+							<p>(00:42:08 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Allegro assai</i>
+						</td>
+						<td> 4/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/315px-Half_note_with_upwards_stem.svg.png" width="10" height="23">= 80
+							<p>(00:00:01 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Presto</i>
+						</td>
+						<td> 3/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dotted_half_note_with_upwards_stem.svg/471px-Dotted_half_note_with_upwards_stem.svg.png" width="12" height="23">= 96
+							<p>(00:44:05 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Allegro assai</i>
+						</td>
+						<td> 4/4
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/315px-Half_note_with_upwards_stem.svg.png" width="10" height="23">= 80
+							<p>(00:44:39 s)
+							</p>
+						</td>
+						<td>Re minore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Allegro assai vivace - Alla Marcia</i>
+						</td>
+						<td> 6/8
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Dotted_quarter_note_with_upwards_stem.svg/471px-Dotted_quarter_note_with_upwards_stem.svg.png" width="10" height="23">= 84
+							<p>(00:44:45 s)
+							</p>
+						</td>
+						<td>Si bemolle maggiore
+						</td>
+				</tr>
+				<tr>
+					<td><i>Andante maestoso</i>
+					</td>
+					<td> 3/2
+					</td>
+					<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/315px-Half_note_with_upwards_stem.svg.png" width="10" height="23">= 72
+						<p>(00:56:18 s)
+						</p>
+					</td>
+					<td>Sol maggiore
+					</td>
+				</tr>
+				<tr>
+					<td><i>Allegro energico, sempre ben marcato</i>
+					</td>
+					<td> 6/4
+					</td>
+					<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Dotted_half_note_with_upwards_stem.svg/471px-Dotted_half_note_with_upwards_stem.svg.png" width="12" height="23">= 84
+						<p>(00:59:54 s)
+						</p>
+					</td>
+					<td>Re maggiore
+					</td>
+				</tr>
+				<tr>
+						<td><i>Allegro ma non tanto</i>
+						</td>
+						<td> 2/2
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/315px-Half_note_with_upwards_stem.svg.png" width="10" height="23">= 120
+							<p>(01:02:27 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				<tr>
+						<td><i>Prestissimo</i>
+						</td>
+						<td> 2/2
+						</td>
+						<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Half_note_with_upwards_stem.svg/315px-Half_note_with_upwards_stem.svg.png" width="10" height="23">= 132
+							<p>(01:05:00 s)
+							</p>
+						</td>
+						<td>Re maggiore
+						</td>
+				</tr>
+				</tbody>
+			</table>
+			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
+			<!-- primo movimento -->
 			<div class="w3-row">
-				<div class="w3-col m6 w3-center w3-padding-large">
-					<img src="https://static.ohga.it/wp-content/uploads/sites/24/2019/03/iStock-962590716.jpg" class="w3-round w3-image" width="500" height="333">
-				</div>
-				<h4 class="w3-center"><em>Periocolosità</em></h4>
-				<div class="w3-col m6 w3-padding-large">
-					<p>La resistenza della plastica tradizionale ne determina anche la dannosità per l'ambiente, in termini di rilascio di anidride carbonica. Una bottiglia di plastica tradizionale, se non viene riciclata, impiega dai 100 ai 1000 anni per decomporsi. 
-					Il riciclo della plastica tradizionale non è semplice come sembra. Non è sufficiente eseguire correttamente la raccolta differenziata. In un rapporto del 2018 dell’Ocse, si legge che a livello globale la quantità di plastica riciclata corrisponde al 14%-18% del totale. La percentuale rimanente finisce in inceneritori e termovalorizzatori (24%) oppure è lasciato nelle discariche o ancora viene disperso nell’ambiente (58%-62%).
+				<h4 class="w3-center"><em>Primo Movimento</em></h4>
+				<div class=" w3-center w3-padding-large">
+					<p>Allegro ma non troppo, un poco maestoso. Durata approssimativa 16 min.<br><br>
+						Il primo movimento è una sonata dall'atmosfera tempestosa. L'incipit della sinfonia è celebre per la quinta vuota la-mi priva della modale, che dà un senso di vuoto e di indefinito. Tale tecnica venne usata anche da sinfonisti posteriori (Anton Bruckner, Gustav Mahler) per rendere l'idea dell'ordine che nasce dal caos indistinto e indeterminato. Il tema di apertura, suonato "pianissimo" su tremolo di archi sembra a tal punto un'orchestra che si accorda da suggerire che fosse un'ispirazione di Beethoven. Ma da questo limbo musicale emerge un tema potente e chiaro che dominerà l'intero movimento. In seguito, alla fine della parte di ricapitolazione, torna a un "fortissimo" in Si bemolle maggiore, invece che al Re minore di apertura, la tonalità del movimento. L'introduzione impiega anche la relazione tra modale e tonica che distorce ulteriormente la tonica fino a che essa non viene suonata dal fagotto nel più basso registro possibile. La coda utilizza un passus duriusculus.
 					</p>
 				</div>
 			</div>
-			<p class="w3-wide"><i class="fa fa-recycle"></i>Plastica riciclata</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:18%">18%</div>
+			<!-- secondo movimento -->
+			<div class="w3-row">
+				<h4 class="w3-center"><em>Secondo Movimento</em></h4>
+				<div class=" w3-center w3-padding-large">
+					<p>Scherzo: Molto vivace /Presto. Durata approssimativa 10 min.<br><br>
+						Il secondo movimento, uno scherzo, è anch'esso in Re minore, con il tema di apertura somigliante a quello del primo movimento, una costruzione che si trova anche nella Sonata per pianoforte n. 29, scritta pochi anni prima. Essa usa ritmi propulsivi e un assolo di timpani. A tratti, durante il movimento Beethoven sottolinea che il battito dovrebbe essere ogni tre battute, forse a causa del passo molto veloce della gran parte del movimento, scritto in tempo triplo con l'indicazione "ritmo di tre battute", e un battito ogni quattro battute "ritmo di quattro battute".<br><br>
+						Beethoven era già stato criticato in precedenza perché non aderiva alle regole riguardanti le composizioni. Utilizzò questo movimento come risposta ai suoi critici. Solitamente gli scherzi sono scritti in tempo triplo. Beethoven fece altrettanto ma esso ha un contrappunto tale che quando accoppiato con la velocità, rende il suono in tempo quarto.<br><br>
+						Seppur aderente alla forma ternaria di un movimento di danza (scherzo-trio-scherzo, o minuetto-trio-minuetto), il movimento ha al suo interno una sonata completa. All'interno di essa, la prima parte dell'esposizione comincia con una fuga.<br><br>
+						La sezione di trio contrastante è in Re maggiore e in tempo doppio. È nel trio che suona il trombone.
+					</p>
+				</div>
 			</div>
-			<p class="w3-wide"><i class="fa fa-fire"></i>Inceneritori e termovalorizzatori</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:24%">24%</div>
+			<!-- terzo movimento -->
+			<div class="w3-row">
+				<h4 class="w3-center"><em>Terzo Movimento</em></h4>
+				<div class=" w3-center w3-padding-large">
+					<p>Adagio-molto e cantabile – Tempo Primo – Andante Moderato – Adagio – Lo Stesso Tempo. Durata approssimativa 16 min.<br><br>
+						Il tempo lento al terzo movimento smorza i toni dopo i suoni impetuosi precedenti, preparando quindi per lo slancio del finale. Il movimento lento e lirico, in Si bemolle maggiore, è in una forma variata sciolta, dove ogni coppia di variazioni elabora progressivamente il ritmo e la melodia. La prima variazione, come il tema, è in 4/4, la seconda in 12/8. Le variazioni sono separate da passaggi in 3/4, il primo in re maggiore, il secondo in sol maggiore. La variazione finale è interrotta due volte da episodi in cui forti fanfare eseguite da tutta l'orchestra sono corrisposte da ottave suonate dai soli primi violini. Un importante corno solista è assegnato al quarto suonatore. I tromboni sono in tacet durante tutto il movimento.
+					</p>
+				</div>
 			</div>
-			<p class="w3-wide"><i class="fa fa-trash"></i>Discariche e dispersione nell'ambiente</p>
-			<div class="w3-light-grey">
-				<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:58%">58%</div>
+			<!-- quarto movimento -->
+			<div class="w3-row">
+				<h4 class="w3-center"><em>Quarto Movimento</em></h4>
+				<div class=" w3-center w3-padding-large">
+					<p>Presto; Allegro assai (Alla marcia); Andante maestoso; Allegro energico, sempre ben marcato. Durata approssimativa 24 min.<br><br>
+						Il quarto movimento si caratterizza per contenere il recitativo, così suddiviso:<br><br>
+						Presto – Allegro ma non troppo – Vivace – Adagio cantabile – Allegro assai – Presto: O Freunde – Allegro assai: Freude, schöner Götterfunken – Alla marcia – Allegro assai vivace: Froh, wie seine Sonnen – Andante maestoso: Seid umschlungen, Millionen! – Adagio ma non troppo, ma divoto: Ihr, stürzt nieder – Allegro energico, sempre ben marcato: (Freude, schöner Götterfunken – Seid umschlungen, Millionen!) – Allegro ma non tanto: Freude, Tochter aus Elysium! – Prestissimo, Maestoso, Molto Prestissimo: Seid umschlungen, Millionen!<br><br><br>
+						Il famoso finale corale è la rappresentazione musicale beethoveniana della fratellanza universale. Il pianista e autore musicale americano Charles Rosen lo ha definito come una "sinfonia all'interno della sinfonia", suonata senza interruzione. Questa "sinfonia interna" segue infatti lo stesso schema generale della Nona Sinfonia nel suo complesso. Lo schema è il seguente:<br><br>
+						Primo "movimento": tema e variazioni con lenta introduzione. Il tema principale che appare prima coi violoncelli e i contrabbassi viene poi "ricapitolato" dalle voci, presenti in tutti gli altri "pseudo-movimenti".<br>
+						Secondo "movimento": scherzo in 6/8 in stile militare (inizia "Alla marcia", parole "Froh, wie seine Sonnen fliegen"), nello stile "alla turca". Conclude con una variazione in 6/8 del tema principale con il coro.<br>
+						Terzo "movimento": lenta meditazione con un nuovo tema sul testo "Seid umschlungen, Millionen!" (inizia con un "Andante maestoso").<br>
+						Quarto "movimento": fugato finale sui temi del primo e del terzo "movimento" (inizia con un "Allegro energico").<br><br>
+						Il movimento ha un'unità tematica, in cui ogni parte può dimostrarsi basata sul tema principale, il tema "Seid umschlungen", o su una combinazione dei due.<br><br>
+						Il primo "movimento all'interno di un movimento" è a sua volta organizzato in sezioni:<br><br>
+						Una introduzione, che inizia con un Presto che è quasi una tempesta di passaggio. Quindi si evocano brevemente tutti e tre i precedenti movimenti in ordine, ciascuno commentato e "respinto" dai violoncelli e i contrabbassi, che giocano in una prefigurazione strumentale della voce umana (recitativo). Alla presentazione del tema principale, anche i violoncelli e i contrabbassi prendono quindi parte alla sinfonia.<br>
+						Il tema principale costituisce la base di una serie di variazioni per l'orchestra sola.<br>
+						L'introduzione viene quindi ripetuta dal passaggio Presto, questa volta con il solista baritono che canta i recitativi precedentemente suggeriti dai violoncelli e i contrabbassi.<br>
+						Il tema principale subisce ancora variazioni, questa volta per i cantanti solisti e il coro.
+					</p>
+				</div>
 			</div>
-		</div>
+			<hr class="w3-border-grey" style="margin:auto; width:40%; margin-top:5%; margin-bottom:5%">
+			<!-- testo -->
+			<div class="w3-row">
+				<h4 class="w3-center"><em>Testo</em></h4>
+				<div class=" w3-center w3-padding-large">
+					<p>Aggiungere un finale con tanto di coro alla sinfonia rappresentava, per Beethoven, un'idea a cui pensava già dal 1807, e che in parte realizzò nel 1808 nel finale della Fantasia corale, portata però a totale compimento solo con la Nona sinfonia, musicando nel quarto movimento l'Ode o Inno alla gioia di Friedrich Schiller.
+					</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<p>TEDESCO<br><br>
+						«O Freunde, nicht diese Töne!
+						Sondern laßt uns angenehmere
+						anstimmen und freudenvollere.»</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<p>ITALIANO<br><br>
+						«Amici, non questi suoni!
+						Piuttosto, altri intoniamone,
+						più piacevoli e gioiosi.»</p>
+				</div>
+				<div class=" w3-center w3-padding-large">
+					<p>Già dal 1793 Beethoven manifestò la volontà di mettere in musica l'Inno alla gioia di Friedrich Schiller. Al 1799 risale il primo abbozzo, sotto forma di Lied, mentre altri schizzi si trovano attualmente in raccolte risalenti al 1814 e 1815. Ma fu solo con la Nona Sinfonia che Beethoven adattò tale testo alla musica, la sua più grande sinfonia. E per far ciò, prese ispirazione da una stesura dell'Ode vista dall'autore stesso nel 1803. L'Inno alla gioia è una lirica nella quale la gioia è intesa non certo come semplice spensieratezza e allegria, ma come risultato a cui l'uomo giunge seguendo un percorso graduale, liberandosi dal male, dall'odio e dalla cattiveria. Peculiarità di quest'ultimo movimento è il perfetto uso (ante litteram) del Leitmotiv, che sarà caratteristico della produzione wagneriana. Infatti Beethoven, all'inizio del 4º movimento, riprende in ordine tutti e tre i temi dei precedenti.
+					</p>
+				</div>
+				<div class=" w3-center w3-padding-large">
+					<p>Le parole scritte dallo stesso Beethoven (e non contenute nella poesia di Schiller) sono riportate in corsivo:
+					</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<p>TEDESCO<br><br>
+						«<em>O Freunde, nicht diese Töne!<br>
+						Sondern laßt uns angenehmere<br>
+						anstimmen und freudenvollere.</em><br><br>
+						
+						Freude, schöner Götterfunken<br>
+						Tochter aus Elysium,<br>
+						Wir betreten feuertrunken,<br>
+						Himmlische, dein Heiligtum!<br>
+						Deine Zauber binden wieder<br>
+						Was die Mode streng geteilt;<br>
+						Alle Menschen werden Brüder,<br>
+						Wo dein sanfter Flügel weilt.<br><br>
+						
+						Wem der große Wurf gelungen,<br>
+						Eines Freundes Freund zu sein;<br>
+						Wer ein holdes Weib errungen,<br>
+						Mische seinen Jubel ein!<br>
+						Ja, wer auch nur eine Seele<br>
+						Sein nennt auf dem Erdenrund!<br>
+						Und wer's nie gekonnt, der stehle<br>
+						Weinend sich aus diesem Bund!<br><br>
+						
+						Freude trinken alle Wesen<br>
+						An den Brüsten der Natur;<br>
+						Alle Guten, alle Bösen<br>
+						Folgen ihrer Rosenspur.<br>
+						Küsse gab sie uns und Reben,<br>
+						Einen Freund, geprüft im Tod;<br>
+						Wollust ward dem Wurm gegeben,<br>
+						Und der Cherub steht vor Gott.<br><br>
+						
+						Froh, wie seine Sonnen fliegen<br>
+						Durch des Himmels prächt'gen Plan,<br>
+						Laufet, Brüder, eure Bahn,<br>
+						Freudig, wie ein Held zum Siegen.<br><br>
+						
+						Seid umschlungen, Millionen!<br>
+						Diesen Kuß der ganzen Welt!<br>
+						Brüder, über'm Sternenzelt<br>
+						Muß ein lieber Vater wohnen.<br>
+						Ihr stürzt nieder, Millionen?<br>
+						Ahnest du den Schöpfer, Welt?<br>
+						Such' ihn über'm Sternenzelt!<br>
+						Über Sternen muß er wohnen.<br><br>
+						
+						Freude heißt die starke Feder<br>
+						In der ewigen Natur.<br>
+						Freude, Freude treibt die Räder<br>
+						In der großen Weltenuhr.<br>
+						Blumen lockt sie aus den Keimen,<br>
+						Sonnen aus dem Firmament,<br>
+						Sphären rollt sie in den Räumen,<br>
+						Die des Sehers Rohr nicht kennt.»</p>
+				</div>
+				<div class="w3-col m6 w3-center w3-padding-large">
+					<p>ITALIANO<br><br>
+						«<em>O amici, non questi suoni!<br>
+						ma intoniamone altri<br>
+						più piacevoli, e più gioiosi.</em><br><br>
+						
+						Gioia, bella scintilla divina,<br>
+						figlia dell'Elisio,<br>
+						noi entriamo ebbri e frementi,<br>
+						celeste, nel tuo tempio.<br>
+						Il tuo fascino riunisce<br>
+						ciò che la moda separò,<br>
+						ogni uomo s'affratella<br>
+						dove la tua ala soave freme.<br><br>
+						
+						L'uomo a cui la sorte benevola,<br>
+						concesse il dono di un amico,<br>
+						chi ha ottenuto una donna devota,<br>
+						unisca il suo giubilo al nostro!<br>
+						Sì, chi anche una sola anima<br>
+						possa dir sua nel mondo!<br>
+						Chi invece non c'è riuscito,<br>
+						lasci piangente e furtivo questa compagnia!<br><br>
+						
+						Gioia bevono tutti i viventi<br>
+						dai seni della natura;<br>
+						vanno i buoni e i malvagi<br>
+						sul sentiero suo di rose!<br>
+						Baci ci ha dato e uva,<br>
+						un amico, provato fino alla morte!<br>
+						La voluttà fu concessa al verme,<br>
+						e il cherubino sta davanti a Dio!<br><br>
 
-		<!-- Differenze -->
-		<h3 class="w3-padding-16 w3-text-blue w3-center"><strong>DIFFERENZE E SIMILARITÀ</strong></h3>
-		<div class="w3-row-padding" style="margin:0 -16px">
-			<div class="w3-half w3-margin-bottom">
-				<ul class="w3-ul w3-white w3-center">
-					<li class="w3-dark-grey w3-xlarge w3-padding-32">BIOPLASTICA</li>
-					<li class="w3-padding-16">Materiale rinnovabile ricavato da prodotti di origine vegetale</li>
-					<li class="w3-padding-16">Biodegradabile</li>
-					<li class="w3-padding-16">Minor impatto ambientale</li>
-					<li class="w3-padding-16">Leggera</li>
-					<li class="w3-padding-16">Versatile</li>
-					<li class="w3-padding-16">Resistente</li>
-					<li class="w3-padding-16">Sottrae terreno e prodotti agricoli destinati all'alimentazione</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-button w3-white w3-padding-large w3-hover-black"><a style="text-decoration: none" href="https://it.wikipedia.org/wiki/Bioplastica">Per ulteriori informazioni</a></button>
-					</li>
-				</ul>
-			</div>
+						Lieti, come i suoi astri volano<br>
+						attraverso la volta splendida del cielo,<br>
+						percorrete, fratelli, la vostra strada,<br>
+						gioiosi, come un eroe verso la vittoria.<br><br>
 
-			<div class="w3-half">
-				<ul class="w3-ul w3-white w3-center">
-					<li class="w3-dark-grey w3-xlarge w3-padding-32">PLASTICA</li>
-					<li class="w3-padding-16">Derivato del petrolio per più del 95%</li>
-					<li class="w3-padding-16">Rimane nell'ambiente fino a 1000 anni</li>
-					<li class="w3-padding-16">Dannosa per la salute e per l'ambiente</li>
-					<li class="w3-padding-16">Leggera</li>
-					<li class="w3-padding-16">Versatile</li>
-					<li class="w3-padding-16">Resistente</li>
-					<li class="w3-padding-16">Solo il 18% viene riciclata</li>
-					<li class="w3-light-grey w3-padding-24">
-						<button class="w3-button w3-white w3-padding-large w3-hover-black"><a style="text-decoration: none" href="https://it.wikipedia.org/wiki/Materie_plastiche">Per ulteriori informazioni</a></button>
-					</li>
-				</ul>
+						Abbracciatevi, moltitudini!<br>
+						Questo bacio vada al mondo intero!<br>
+						Fratelli, sopra il cielo stellato<br>
+						deve abitare un padre affettuoso.<br>
+						Vi inginocchiate, moltitudini?<br>
+						Intuisci il tuo creatore, mondo?<br>
+						Cercalo sopra il cielo stellato!<br>
+						Sopra le stelle deve abitare!<br><br>
+
+						Gioia si chiama la forte molla<br>
+						che sta nella natura eterna.<br>
+						Gioia, gioia aziona le ruote<br>
+						nel grande meccanismo del mondo.<br>
+						Essa attrae fuori i fiori dalle gemme,<br>
+						gli astri dal firmamento,<br>
+						conduce le stelle nello spazio,<br>
+						che il cannocchiale dell'osservatore non vede.»</p>
+				</div>
 			</div>
 		</div>
 	</body>
